@@ -1,0 +1,7 @@
+sudo service docker start
+
+sudo docker-compose run web django-admin startproject composeexample .
+
+Reiniciar linux en windows
+WIN+R -> services.msc
+Find LxssManager
