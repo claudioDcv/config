@@ -5,3 +5,14 @@ sudo docker-compose run web django-admin startproject composeexample .
 Reiniciar linux en windows
 WIN+R -> services.msc
 Find LxssManager
+
+
+cd /path/to/my_project
+python manage.py dumpdata --format=json myapp > /path/to/myapp/fixtures/initial_data.json
+
+python manage.py reset myapp
+python manage.py syncdb
+
+
+./manage.py dumpdata authorization.CustomUser --i 4 > users.json
+./manage.py dumpdata greenhouse.PlantType --i 4 > plant_type.json

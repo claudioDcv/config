@@ -1,31 +1,45 @@
 from django import forms
-from .models import Plant, Control
+from .models import Plant, Control, PlantType, Group
 
 class PlantForm(forms.ModelForm):
 
     code = forms.CharField(label='Código', max_length=100)
-    birthdate = forms.DateField(label='Fecha de nacimiento', required=False)
-    death_date = forms.DateField(label='Fecha de muerte', required=False)
+    birthdate = forms.DateField(
+        label='Fecha de nacimiento',
+        required=False,
+        input_formats=['%d/%m/%Y'],
+        widget=forms.DateTimeInput(attrs={
+            'autocomplete': 'off',
+            'class': 'form-control datepicker datepicker-input',
+        })
+    )
+    death_date = forms.DateField(
+        label='Fecha de muerte',
+        required=False,
+        input_formats=['%d/%m/%Y'],
+        widget=forms.DateTimeInput(attrs={
+            'autocomplete': 'off',
+            'class': 'form-control datepicker datepicker-input-nullable',
+        })
+    )
 
     def __init__(self, *args, **kwargs):
         super(PlantForm, self).__init__(*args, **kwargs)
         self.fields['code'].widget.attrs = { 'class': 'form-control' }
-        self.fields['birthdate'].widget.attrs = { 'class': 'form-control' }
-        self.fields['death_date'].widget.attrs = { 'class': 'form-control' }
+        self.fields['group'].widget.attrs = { 'class': 'form-control' }
 
     class Meta:
         model = Plant
-        exclude = ('owner', 'slug' )
+        exclude = ('owner', 'slug', 'plant_type')
 
 
 class ControlForm(forms.ModelForm):
 
     capture_date = forms.DateTimeField(
-        label='Fecha y hora de control',
+        label='* Fecha y hora de control',
         input_formats=['%d/%m/%Y %H:%M'],
         widget=forms.DateTimeInput(attrs={
             'class': 'form-control datetimepicker-input',
-            'data-target': '#datetimepicker1'
         })
     )
 
@@ -38,38 +52,61 @@ class ControlForm(forms.ModelForm):
     )
 
     temperature = forms.DecimalField(
-        label='Temperatura',
+        label='* Temperatura en C°',
         max_digits=5, decimal_places=2,
         widget=forms.NumberInput(attrs={
             'class': 'form-control temperature-color',
-            'placeholder': 'Ingrese Temperatura',
+            'placeholder': 'Ingrese Temperatura en Celcius',
         })
     )
     humidity = forms.DecimalField(
-        label='Humedad',
+        label='* Humedad %',
         max_digits=5, decimal_places=2,
         widget=forms.NumberInput(attrs={
             'class': 'form-control humidity-color',
-            'placeholder': 'Ingrese Humedad',
+            'placeholder': 'Ingrese Humedad en porcentaje',
         })
     )
     height = forms.DecimalField(
-        label='Altura',
-        max_digits=5, decimal_places=2,
+        label='* Altura Cm (123cm)',
+        max_digits=7, decimal_places=2,
         widget=forms.NumberInput(attrs={
             'class': 'form-control height-color',
             'placeholder': 'Ingrese Altura (centimetros)',
         })
     )
     weight = forms.DecimalField(
-        label='Peso',
-        max_digits=5, decimal_places=2,
+        label='* Peso KG (Ej: 12.244kg)',
+        max_digits=5, decimal_places=3,
         widget=forms.NumberInput(attrs={
             'class': 'form-control weight-color',
-            'placeholder': 'Ingrese Peso (gramos)',
+            'placeholder': 'Ingrese Peso (KG)',
         })
     )
 
     class Meta:
         model = Control
         exclude = ('plant', )
+    
+    def __init__(self, *args, **kwargs):
+        # first call parent's constructor
+        super(ControlForm, self).__init__(*args, **kwargs)
+        # there's a `fields` property now
+        # self.fields.keyOrder = ['capture_date', 'temperature', 'humidity', 'weight', 'description']
+
+        self.fields['description'].required = False
+
+
+class GroupForm(forms.ModelForm):
+
+    label = forms.CharField(
+        label='Nombre',
+        max_length=100,
+        widget=forms.DateTimeInput(attrs={
+            'class': 'form-control',
+        })
+    )
+
+    class Meta:
+        model = Group
+        exclude = ('owner',)

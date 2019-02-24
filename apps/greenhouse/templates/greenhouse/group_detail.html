@@ -1,0 +1,78 @@
+{% extends "base_generic.html" %}
+{% load qr_code %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-header">
+                    <strong class="d-inline-block">Detalle de Grupo</strong>
+                    <a class="btn btn-outline-warning btn-sm"
+                        href="{% url 'greenhouse.groups.update' object.pk %}">Editar</a>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <p>
+                                <label for="id_code">Nombre: {{object.label}}</label>
+                            </p>
+                            <div>{{object.slug}}</div>
+                            <div><code>{{object_url}}</code></div>
+                            </p>
+                        </div>
+                        <div class="col-sm-5 text-right">
+                            {% qr_from_text object_url size="S" %}
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="card-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-4">
+        <div class="card-header">
+            <div class="card-title">Plantas</div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-sm">
+                    {% if plant_list %}
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">Código</th>
+                                <th scope="col">Tipo</th>
+                                <th scope="col">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for plant in plant_list %}
+                            <tr>
+                                <td>{{plant.code}}</td>
+                                <td>{{plant.plant_type}}</td>
+
+                                <td>
+                                    <a class="btn btn-outline-success btn-sm"
+                                        href="{% url 'greenhouse.plants.detail' plant.pk %}">Ver</a>
+                                    <a class="btn btn-outline-warning btn-sm"
+                                        href="{% url 'greenhouse.plants.update' plant.pk %}">Editar</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    {% else %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -7,16 +7,17 @@
         <div class="col-sm">
             <div class="card">
                 <div class="card-header">
-                    <h2>Detalle de planta</h2>
+                    <strong class="d-inline-block">Detalle de planta</strong>
                     <a class="btn btn-outline-warning btn-sm"
-                        href="{% url 'greenhouse.plants.update' object.slug %}">Editar</a>
+                        href="{% url 'greenhouse.plants.update' object.pk %}">Editar</a>
                     <a class="btn btn-outline-primary btn-sm" href="{% url 'greenhouse.plants' %}">Listado</a>
                     <a class="btn btn-outline-success btn-sm"
-                        href="{% url 'greenhouse.controls.create' object.slug %}">Nuevo Control</a>
+                        href="{% url 'greenhouse.controls.create' object.pk %}">Nuevo Control</a>
+
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-7">
                             <p>
                                 <label for="id_code">Código: {{object.code}}</label>
                             </p>
@@ -25,12 +26,17 @@
                             <p><label for="id_death_date">Death date: {{object.death_date}}</label>
                             </p>
                             <p>
+                                <label for="id_death_date">Grupo: <a class="btn-link btn"
+                                        href="{% url 'greenhouse.groups.detail' object.group.pk %}">{{object.group}}</a></label>
+
+                            </p>
+                            <p>
                                 <div>{{object.slug}}</div>
+                                <div><code>{{object_url}}</code></div>
                             </p>
                         </div>
-                        <div class="col-sm-8">
-                            <div><code>{{object_url}}</code></div>
-                            {% qr_from_text object_url size="M" %}
+                        <div class="col-sm-5 text-right">
+                            {% qr_from_text object_url size="S" %}
                         </div>
                     </div>
 
@@ -39,19 +45,6 @@
                 </div>
                 <div class="card-footer">
 
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row mt-4">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <canvas id="humidity_list" width="400" height="128"></canvas>
-                    <canvas id="temperature_list" width="400" height="128"></canvas>
-                    <canvas id="weight_list" width="400" height="128"></canvas>
-                    <canvas id="height_list" width="400" height="128"></canvas>
                 </div>
             </div>
         </div>
@@ -84,7 +77,9 @@
                                 <td>{{control.humidity}}</td>
                                 <td>{{control.height}}</td>
                                 <td>{{control.weight}}</td>
-                                <td></td>
+
+                                <td><a class="btn btn-outline-warning btn-sm"
+                                        href="{% url 'greenhouse.controls.update' control.pk %}">Editar</a></td>
                             </tr>
                             {% endfor %}
                         </tbody>
@@ -95,38 +90,52 @@
             </div>
         </div>
     </div>
+
+    <div class="row mt-4">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <canvas id="humidity_list" width="400" height="100"></canvas>
+                    <canvas id="temperature_list" width="400" height="100"></canvas>
+                    <canvas id="weight_list" width="400" height="100"></canvas>
+                    <canvas id="height_list" width="400" height="100"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
 {% block scripts %}
 <script>
-(() => {
-    Chart.defaults.global.defaultFontFamily = "Arial, Sans, Helvetica, Ubuntu";
-    Chart.defaults.global.defaultFontSize = 10;
-    const makeLinearChart = (idCanvas, data, key, borderColor, label, orderBy) => {
-        const list = data.map(e => ({ y: e[key], x: e[orderBy] })).filter(e => e.y !== null);
-        const chartOptions = {
-            legend: { display: true, labels: { fontColor: 'rgb(255, 99, 132)' } },
-            scales: { xAxes: [{ type: 'time', time: { unit: 'week' } }] }
-        };
-        return new Chart(document.getElementById(idCanvas), {
-            type: 'line',
-            data: { datasets: [{ label, data: list, fill: true, borderColor }]
-            }, options: chartOptions
-        });
-    }
-    fetch(window.location.href + '?format=json')
-        .then(resp => resp.json())
-        .then(data => {
-            const d = 'capture_date';
-            const dataRemap = data.control_list
-                .filter(e => e[d] !== null)
-                .map(e => ({ ...e, [d]: moment(new Date(e[d])).format("YYYY-MM-DD HH:mm") }))
-                .sort((a, b) => b[d] - a[d]);
-            makeLinearChart('humidity_list', dataRemap, 'humidity', '#28a745', "Humedad", d);
-            makeLinearChart('height_list', dataRemap, 'height', '#007bff', "Altura", d);
-            makeLinearChart('temperature_list', dataRemap, 'temperature', '#dc3545', "Temperatura", d);
-            makeLinearChart('weight_list', dataRemap, 'weight', '#795548', "Peso", d);
-        })
-})();
+    (() => {
+        Chart.defaults.global.defaultFontFamily = "Arial, Sans, Helvetica, Ubuntu";
+        Chart.defaults.global.defaultFontSize = 10;
+        const makeLinearChart = (idCanvas, data, key, borderColor, label, orderBy) => {
+            const list = data.map(e => ({ y: e[key], x: e[orderBy] })).filter(e => e.y !== null);
+            const chartOptions = {
+                legend: { display: true, labels: { fontColor: 'rgb(255, 99, 132)' } },
+                scales: { xAxes: [{ type: 'time', time: { unit: 'week' } }] }
+            };
+            return new Chart(document.getElementById(idCanvas), {
+                type: 'line',
+                data: {
+                    datasets: [{ label, data: list, fill: true, borderColor }]
+                }, options: chartOptions
+            });
+        }
+        fetch(window.location.href + '?format=json')
+            .then(resp => resp.json())
+            .then(data => {
+                const d = 'capture_date';
+                const dataRemap = data.control_list
+                    .filter(e => e[d] !== null)
+                    .map(e => ({ ...e, [d]: moment(new Date(e[d])).format("YYYY-MM-DD HH:mm") }))
+                    .sort((a, b) => b[d] - a[d]);
+                makeLinearChart('humidity_list', dataRemap, 'humidity', '#28a745', "Humedad", d);
+                makeLinearChart('height_list', dataRemap, 'height', '#007bff', "Altura", d);
+                makeLinearChart('temperature_list', dataRemap, 'temperature', '#dc3545', "Temperatura", d);
+                makeLinearChart('weight_list', dataRemap, 'weight', '#795548', "Peso", d);
+            })
+    })();
 </script>
 {% endblock %}

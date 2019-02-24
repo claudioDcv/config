@@ -1,0 +1,7211 @@
+[
+    {
+        "model": "greenhouse.planttype",
+        "pk": 1,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "A.M.S.",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 2,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Acid",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 3,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Afghan Hash Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 4,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Afghan Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 5,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Afghan OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 6,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Afghani",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 7,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Afghani Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 8,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Afgooey",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 9,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Airborne Genius",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 10,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "AK Choco Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 11,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "AK-OG Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 12,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Akorn",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 13,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Alegria",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 14,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Allkush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 15,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Alpujarreña",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 16,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "American Dream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 17,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "American Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 18,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "AMS",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 19,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Anesthesia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 20,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Aroma",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 21,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "ASH",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 22,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Aurora Indica",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 23,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Ayahuasca Purple",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 24,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "A.C. Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 25,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "A1 Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 26,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Acapulco Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 27,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Ace Silver Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 28,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Afghan Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 29,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Afrodite",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 30,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "AK-420",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 31,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "AK-47",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 32,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Alaskan Ice",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 33,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amazing Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 34,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amazonia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 35,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "American Pie",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 36,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amherst Sour Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 37,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesi-K Lemon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 38,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 39,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia 7",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 40,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Bilbo",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 41,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 42,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 43,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 44,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Haze XL",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 45,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 46,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Lemon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 47,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Mistery",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 48,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia Molotov",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 49,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amnesia White",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 50,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Amsterdam Mist",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 51,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Angel Heart",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 52,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Apollo 11",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 53,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Apollo Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 54,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "AppleJack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 55,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Arjan's Haze 1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 56,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Arjan's Ultra Haze 1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 57,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Arjan's Ultra Haze 2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 58,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Arjan’s Haze 2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 59,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Arjan’s Haze 3",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 60,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Arjan’s Strawberry Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 61,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Atomical Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 62,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Auto Nefertiti",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 63,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Azure Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 64,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "ACDC",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 65,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Afghan Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 66,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Agent Orange",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 67,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "AK Widow 47",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 68,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "AK-020",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 69,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "AK-48",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 70,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Alchemy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 71,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Armageddon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 72,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Atomic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 73,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Afghan Kush Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 74,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Afghani 1 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 75,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "AK Skunk Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 76,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "AK-420 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 77,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "AK-48 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 78,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amnesia Bilbo Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 79,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amnesia Haze Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 80,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amnesia Haze XL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 81,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amnesia Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 82,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amnesia Skunk Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 83,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amnesia XXL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 84,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Amur Giant Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 85,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Annapurna SuperAuto",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 86,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto 1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 87,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Acid",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 88,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Afghan Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 89,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Afghani",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 90,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Alpujarreña",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 91,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Anesthesia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 92,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Anubis",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 93,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Bio Diesel Mass",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 94,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Blackberry Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 95,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Blue Amnesia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 96,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Blue Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 97,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Blue Pyramid",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 98,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Blueberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 99,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Blueberry Domina",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 100,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 101,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Brooklyn Sunrise",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 102,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Bubblegum",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 103,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto CBD Star",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 104,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Cheese NL",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 105,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Chemdog",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 106,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Colorado Cookies",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 107,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Critical Orange Punch",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 108,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Critical Soma",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 109,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Daiquiri Lime",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 110,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Dark Purple",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 111,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 112,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Duck",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 113,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Durban Poison",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 114,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto El Fuego",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 115,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Euforia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 116,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Fresh Candy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 117,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Frisian Dew",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 118,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Galaxy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 119,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Glueberry OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 120,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 121,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Jack Herer",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 122,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Kaya 47",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 123,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto King Kong",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 124,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Kryptonite",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 125,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Lavender",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 126,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Lennon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 127,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Mako",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 128,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Mass",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 129,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Mazar",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 130,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Nefertiti",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 131,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto New York City",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 132,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Night Queen",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 133,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Northern Lights",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 134,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto OG Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 135,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Orange Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 136,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Pounder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 137,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Pounder With Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 138,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Power Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 139,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Purple",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 140,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Purple CousKush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 141,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Silver Bullet",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 142,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Silver Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 143,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Skunk Mass",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 144,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Super Hash",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 145,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Super OG Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 146,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Tao Blueberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 147,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Tutankhamon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 148,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Ultimate",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 149,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Wappa",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 150,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto White Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 151,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Whiteberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 152,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Xtreme",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 153,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Auto Yumbolt",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 154,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Autoflower Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 155,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Autoflowering White Russian 1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 156,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Automaria II",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 157,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Automatic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 158,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Autopilot XXL",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 159,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bad Azz Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 160,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Badazz Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 161,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bass Line",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 162,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "BC Early Blueberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 163,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "BC Purps",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 164,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Berry Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 165,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Berry Delight",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 166,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Band",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 167,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Bang",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 168,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 169,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Bud XXL",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 170,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Buddha Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 171,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Bull",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 172,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Big Tooth",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 173,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Biker Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 174,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bizarre",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 175,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Black Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 176,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Black Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 177,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Black Domina",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 178,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Black Gum",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 179,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Black Russian",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 180,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Black Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 181,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blackwater",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 182,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Auto Mazar",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 183,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 184,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Elite Indica",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 185,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Funk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 186,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Gelato 41",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 187,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Hash",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 188,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Kush Berry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 189,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Lemon Thai x Aroma",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 190,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Mazar",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 191,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Medi Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 192,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Mystic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 193,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Power",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 194,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Pyramid",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 195,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Rhino",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 196,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blue Zkittlez",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 197,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 198,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 199,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 200,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry Cheesecake",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 201,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry Headband",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 202,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 203,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry Punch",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 204,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Blueberry Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 205,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bona Dea CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 206,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Brotherhood OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 207,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubba Island Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 208,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubba Kush 2.0",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 209,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubba Kush CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 210,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubba Love",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 211,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubba OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 212,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubba's Gift",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 213,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubble Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 214,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubble Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 215,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubblegum Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 216,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bubblicious",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 217,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Buddha Kush OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 218,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Buddha Tahoe",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 219,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Buddha’s Sister",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 220,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Bullshark",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 221,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Baikal Express",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 222,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Banana Split",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 223,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bandana",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 224,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bangi Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 225,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "BCN Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 226,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Belladonna",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 227,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Biddy Early",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 228,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Big Critical",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 229,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Black Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 230,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Black Poison",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 231,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blackjack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 232,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Brilliant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 233,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Dream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 234,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Dream CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 235,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 236,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 237,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Spider",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 238,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Blue Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 239,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Brainkiller Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 240,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bruce Banner 3",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 241,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bruce Banner BX 2.0",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 242,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bubble Gum",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 243,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bubblegum XL",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 244,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "BubbleGummer",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 245,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Bubblelicious",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 246,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Buddha Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 247,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Buzz Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 248,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Barbara Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 249,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "BC Golden Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 250,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Big Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 251,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Big Foot",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 252,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Big Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 253,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Big Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 254,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Black Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 255,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Black Jack CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 256,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Black Poison Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 257,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Blackberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 258,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Blackdance",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 259,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Blue Grape Dream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 260,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Blue Lemon Thai",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 261,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Blueberry Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 262,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Brian Berry Cough",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 263,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Brooklyn Mango",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 264,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Bubble Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 265,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Bubble Yum",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 266,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Burmese Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 267,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Baby Boom Auto CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 268,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Baby Boom Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 269,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Berry Bomb Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 270,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Berry Ryder Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 271,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Big Bang Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 272,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Big Bomb Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 273,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Big Bud XXL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 274,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Big Buddha Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 275,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Big Devil 2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 276,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Big Devil Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 277,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Black Cream Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 278,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Black Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 279,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Black Jack Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 280,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Bloody Skunk Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 281,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blow Mind Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 282,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Amnesia XXL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 283,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Auto Mazar",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 284,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 285,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Critical Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 286,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Dream Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 287,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Dream'matic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 288,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blue Mammoth Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 289,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blueberry Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 290,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Blueberry Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 291,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Bubba Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 292,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Bubba Kush Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 293,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Bubble Kush Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 294,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Bubblelicious Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 295,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Buddha Purple Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 296,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Caboose",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 297,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cal-Train Wreck",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 298,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cali Orange Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 299,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "California Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 300,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "California Hash Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 301,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "California Indica",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 302,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "California Orange Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 303,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Canadian Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 304,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Candy Kush Express - Fast Flowering",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 305,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Caramel Ice",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 306,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Caramelo",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 307,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cataract Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 308,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Blue Shark",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 309,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Caramel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 310,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Critical Cure",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 311,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Critical Mass",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 312,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Divine",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 313,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Nordle",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 314,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Shark Shock",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 315,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Spliff Berry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 316,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD Sweet And Sour Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 317,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "CBD-Enriched Warlock",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 318,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Ceres Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 319,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chaos Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 320,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Charlotte's Web",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 321,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cheese Dawg",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 322,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cheese Quake",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 323,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cheesus",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 324,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cheesy Dick",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 325,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cheesy Rider",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 326,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chem Beyond Diesel CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 327,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chem Dawg",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 328,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chem Valley Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 329,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chemdog",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 330,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chemdog Millionaire",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 331,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cherry Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 332,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cherry Cordial",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 333,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chicle",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 334,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "China Yunnan",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 335,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chocolate Chunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 336,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chocolate Mint OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 337,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chronic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 338,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chronic Lights",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 339,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chronic Thunder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 340,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Chunky Cheeze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 341,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Citrus Smoothie",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 342,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cluster Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 343,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cole Train",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 344,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Colombian Sweet",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 345,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Confidencial Medicine",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 346,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Confidencial OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 347,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Conspiracy Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 348,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cookies And Cream Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 349,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cookies Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 350,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crazy Miss Hyde",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 351,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crazy Miss Hyde Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 352,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cream Caramel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 353,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cream Caramel - F1 Fast Version",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 354,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Cream Caramel CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 355,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crimea Blue",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 356,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Criminal +",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 357,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 358,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical 47",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 359,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 360,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical HOG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 361,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Impact",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 362,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 363,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Lemon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 364,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Magic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 365,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Mango",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 366,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Mass",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 367,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Mass CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 368,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Purple Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 369,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Sensi Star",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 370,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 371,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Critical+ 2.0",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 372,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crockett's Dawg",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 373,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crocketts Confidential",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 374,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crystal Candy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 375,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crystal Candy - F1 Fast Version",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 376,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crystal Queen",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 377,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Crystal White",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 378,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "C. Banana",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 379,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "C99",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 380,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Candida (CD-1)",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 381,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Candyman Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 382,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cannalope Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 383,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cannalope Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 384,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cap Peeler",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 385,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Caprichosa Thai",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 386,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Caribe",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 387,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Carnival",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 388,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Casey Jones",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 389,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD 3D",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 390,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD Charlotte’s Angel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 391,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD ComPassion",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 392,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD Mango Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 393,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD MediHaze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 394,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD PH",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 395,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "CBD Yummy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 396,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cheddarhead",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 397,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cheese N Chong",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 398,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chem 4 OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 399,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chem Berry D",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 400,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chernobyl",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 401,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cherry Malawi",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 402,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cherrygasm",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 403,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chiesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 404,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Choco Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 405,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Choco Candy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 406,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chocolate Fondue",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 407,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chocolate Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 408,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chocolope",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 409,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Chocolope Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 410,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cinderella 99",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 411,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Claustrum",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 412,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Colombian",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 413,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Congo",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 414,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cookies Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 415,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cotton Candy Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 416,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Critical Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 417,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Critical Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 418,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Critical Jack Herer",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 419,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Critical Kali Mist",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 420,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Critical Neville Haze 2.0",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 421,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Critical Super Silver Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 422,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Crockett's Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 423,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Crockett's Sour Tangie",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 424,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Crockett's Tangie",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 425,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Crystal Cloud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 426,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Cum Laude",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 427,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Californian Orange",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 428,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Cannatonic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 429,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Cash Express",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 430,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "CBD Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 431,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "CBD Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 432,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "CBD Skunk Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 433,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "CBD Therapy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 434,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "CBD-Chronic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 435,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Ceres Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 436,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Channel +",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 437,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 438,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Cheese CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 439,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Chemmy Jones",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 440,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Citral Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 441,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Cocoa Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 442,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Coma Cluster",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 443,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Critical Mass 33",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 444,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Critical Orange Punch",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 445,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Critical Soma",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 446,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Critical+",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 447,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Currant Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 448,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Cuvée",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 449,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "C4 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 450,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Californian Snow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 451,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Candy Caramelo Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 452,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Candy Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 453,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Caramel Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 454,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD Auto Charlotte’s Angel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 455,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD Auto Compassion Lime",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 456,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD Auto White Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 457,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD Crack Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 458,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD Fix Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 459,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD Lemon Potion Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 460,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "CBD MedGom Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 461,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Chaze SuperAuto",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 462,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cheese Auto CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 463,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 464,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cheese XXL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 465,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cheesy Auto CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 466,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cheesy Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 467,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cherry Bomb Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 468,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cherry Bud Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 469,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Chiesel Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 470,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Choco Kush Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 471,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Chronic Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 472,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Climax Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 473,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cobra Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 474,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cotton Bud Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 475,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Crazy Miss Hyde Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 476,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cream Caramel Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 477,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cream Cookies Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 478,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Cream Mandarine Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 479,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical 47 Express",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 480,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical AK Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 481,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 482,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 483,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Diesel Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 484,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Jack Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 485,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Jack Herer Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 486,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Kush Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 487,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Mass Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 488,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical Neville Haze Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 489,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical+ 2.0 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 490,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Critical+ Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 491,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Crystal Candy Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 492,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Crystal Meth",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 493,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Dark Rhino",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 494,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Darkstar Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 495,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Dawg Star",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 496,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Deadhead OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 497,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Deep Chunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 498,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Deep Purple",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 499,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Delicious Candy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 500,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Desert Queen",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 501,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Devil",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 502,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Devil Fruit",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 503,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Diamond Girl",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 504,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Diesel Dipped Cookies",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 505,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Double Alien 18",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 506,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Double Dutch",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 507,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Double Glock",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 508,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Double Tangie Banana",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 509,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Double White",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 510,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Douce Nuit",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 511,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Dr Greenthumb’s Em-Dog",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 512,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Durga Mata",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 513,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Durga Mata II CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 514,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Dutch Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 515,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Dynamite",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 516,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Daddy’s Girl",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 517,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dairy Queen",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 518,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dama Blanca",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 519,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Damn Sour",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 520,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Damnesia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 521,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dance World",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 522,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dancehall",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 523,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Darkling Sativa",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 524,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Deadlights",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 525,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dedoverde Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 526,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Delahaze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 527,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Desfrán",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 528,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Destroyer",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 529,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 530,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Diesel Glue",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 531,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Diesel Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 532,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dinachem",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 533,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dinamed CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 534,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dinamed CBD Plus",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 535,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "DJ’s Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 536,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dominator",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 537,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Double Diesel Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 538,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dr. Grinspoon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 539,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Durban",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 540,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Durban Magic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 541,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Durban Poison",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 542,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Durban-Thai x C99",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 543,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dutch Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 544,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dutch Dragon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 545,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Dutch Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 546,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Dark Dragon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 547,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Deep Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 548,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Dieseltonic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 549,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Dinamex",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 550,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Doctor Jamaica",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 551,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Dr. Who",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 552,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Damnesia Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 553,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Dark Devil Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 554,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Deimos",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 555,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Devil Cream Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 556,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "DFA Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 557,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Diesel Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 558,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Diesel Berry Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 559,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Diesel Haze Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 560,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Diesel Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 561,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Dinamed CBD Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 562,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Dinamex Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 563,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Double Diesel Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 564,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Dr. Greenthumb's  Dedoverde Haze Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 565,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Dreamberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 566,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Dulce de Leche",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 567,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Early Queen",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 568,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Early Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 569,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Early Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 570,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Easy Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 571,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Ed Rosenthal Super Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 572,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Edam Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 573,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "El Alquimista",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 574,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "El Fuego",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 575,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Eleven Roses",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 576,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Enemy Of The State",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 577,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Euphoria",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 578,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Ewe-2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 579,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Exodus Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 580,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Exodus Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 581,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Exotic Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 582,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Eagle Bill",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 583,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Early Amnesia CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 584,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Early Pearl",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 585,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Early Pearl Skunk x Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 586,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Early Skunk Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 587,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Easy Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 588,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Easy Sativa",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 589,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Eldorado",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 590,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Euforia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 591,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Exotic Thai",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 592,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Expert 47",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 593,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Expert Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 594,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Early Skunk x Blue Lemon Thai",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 595,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Early Top Tao",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 596,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Everest Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 597,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Early Skunk Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 598,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Easy Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 599,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Easy Ryder",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 600,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "El Alquimista Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 601,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Ese T. Bilbo Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 602,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Exodus Cheese Auto CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 603,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Exodus Cheese Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 604,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Fallen Angel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 605,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Fast Caramel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 606,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Fat Banana",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 607,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "First Lady",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 608,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Florida Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 609,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Florida Lemons",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 610,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Flowerbomb Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 611,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Fondue",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 612,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Four-Way",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 613,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Freeze Cheese '89",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 614,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "French Cookies",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 615,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "French Macaron",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 616,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Frencheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 617,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Fresh Candy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 618,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Frosty Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 619,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "F13",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 620,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Flash Back 2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 621,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Flo",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 622,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Forest Dream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 623,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Franco's Lemon Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 624,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Freddy’s Best",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 625,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Fruit Spirit",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 626,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Fruity Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 627,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Full Moon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 628,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Face Melt OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 629,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Frisian Dew",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 630,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Frisian Duck",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 631,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Fruity Juice",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 632,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Fruity Thai",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 633,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Fast Eddy Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 634,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Fastberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 635,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Flash Babylon",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 636,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Fraggle Skunk Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 637,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Fruit Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 638,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "G-Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 639,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "G13 Hash Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 640,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "G13 Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 641,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "G13 Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 642,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Galaxy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 643,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "GG1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 644,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Ghingis Khan",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 645,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Girl Scout Cookies",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 646,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "GlueChee",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 647,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "God's Gift",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 648,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Gold Bar Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 649,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Golden Lemons",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 650,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Golosa",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 651,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Gorilla",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 652,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Gorilla Glue",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 653,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Gorilla Zkittlez",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 654,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grand Daddy Purp",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 655,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grand OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 656,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grandaddy Purple S1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 657,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grandaddy White",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 658,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grandoggy Purps",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 659,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grape Lime Ricky",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 660,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grapefruit Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 661,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grapefruit Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 662,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grapegod",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 663,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Grapegod x Master Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 664,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Great White Shark",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 665,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Great White Shark CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 666,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Green Gelato",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 667,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Green Gummy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 668,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Green Magic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 669,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Green Poison",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 670,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Green Poison - F1 Fast Version",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 671,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Green Poison CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 672,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Guava Berry Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 673,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Guerrilla’s Gusto",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 674,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Gummy Bears",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 675,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "G13 Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 676,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Galactic Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 677,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Ganesh Spirit",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 678,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Gipsy Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 679,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Go Time",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 680,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Gold Rush Outdoor",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 681,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Golden Berry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 682,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Golden Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 683,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Golden Tiger",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 684,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Gorilla Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 685,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Gorilla Girl",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 686,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Grapefruit",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 687,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Grapefruit Haze",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 688,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Grateful Casey",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 689,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Green AK XL",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 690,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Green Crack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 691,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Green Crack CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 692,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Green House Thai",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 693,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Ghostrider",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 694,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Gipsy Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 695,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Girl Scout Haze Cookies",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 696,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Glueberry OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 697,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Grape Krush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 698,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Grape Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 699,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Grape OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 700,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Grapefruit Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 701,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Grapegod x Blueberry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 702,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Guayaka",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 703,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Gypsy Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 704,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "G14",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 705,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Girl Scout Cookies Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 706,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Gnomo Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 707,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Gorilla Glue Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 708,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Grape Muerte Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 709,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Grapefruit autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 710,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Green AK XL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 711,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Green Poison Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 712,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Green Poison XL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 713,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Green-O-Matic",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 714,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Guillotine",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 715,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Haoma",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 716,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Happy Brother BX2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 717,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hash Bomb",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 718,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hash Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 719,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hash Ultimate",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 720,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Head Cheese",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 721,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Headband",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 722,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Heavy Bud",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 723,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hell’s Bells",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 724,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Himalaya Gold",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 725,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hindu Cream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 726,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hindu Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 727,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hollands Hope",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 728,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Holy Grail Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 729,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Holy Punch",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 730,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Honey Bananas",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 731,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Honey Cream - Fast Flowering",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 732,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Houchie Kouchie Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 733,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Hurkle",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 734,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Hash Heaven",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 735,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Hawaii Maui Waui",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 736,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Hawaiian Snow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 737,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Haze Berry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 738,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Haze Mist",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 739,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Headbanger",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 740,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Hemmy Black",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 741,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "High Level",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 742,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Holy Grail 69",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 743,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Honey B",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 744,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Honeybells",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 745,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "HulkBerry",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 746,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Herijuana Jack 33",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 747,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Haze 2.0 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 748,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Haze Autofloreciente CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 749,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Haze Gom",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 750,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Haze XXL Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 751,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Hijack Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 752,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Hindu Kush Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 753,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Honey Peach Auto CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 754,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "ICE",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 755,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Ice Cream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 756,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Iced Widow",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 757,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Indian Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 758,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Indigo Berry Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 759,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Ice Cool",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 760,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Ice Cool CBD",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 761,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Irie",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 762,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Iron Cindy",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 763,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Island Sweet Skunk",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 764,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Ice Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 765,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "ICED Grapefruit",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 766,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Industrial Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 767,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Ice Cool Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 768,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Il Diavolo",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 769,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Jack Flash",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 770,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Jesus OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 771,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Jorge's Diamonds 1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 772,
+        "fields": {
+            "sub_type": "Indica (dominant)",
+            "label": "Julius Caesar",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 773,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack Diesel",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 774,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack F1",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 775,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack Flash 5",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 776,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack La Mota",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 777,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack O Nesia",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 778,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack Plant",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 779,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack Skellington",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 780,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack The Ripper",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 781,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jack's Cleaner 2",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 782,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jacky White",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 783,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jägg Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 784,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jamaican Blueberry BX",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 785,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jamaican Dream",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 786,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jamaican Lambsbread",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 787,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jamaican OG",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 788,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jamaican Pearl",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 789,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jenny Kush",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 790,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jillybean",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 791,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Jock Horror",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 792,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "John Doe",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 793,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Juanita",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 794,
+        "fields": {
+            "sub_type": "Sativa (dominant)",
+            "label": "Juanita La Lagrimosa",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 795,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Jack",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 796,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Jack Cheddar",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 797,
+        "fields": {
+            "sub_type": "Indica/sativa",
+            "label": "Jack Herer",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 798,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Jack 47 Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 799,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Jack Herer Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 800,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Jack The Ripper Autofloreciente",
+            "owner": 2
+        }
+    },
+    {
+        "model": "greenhouse.planttype",
+        "pk": 801,
+        "fields": {
+            "sub_type": "Autoflowering",
+            "label": "Jet 47",
+            "owner": 2
+        }
+    }
+]
