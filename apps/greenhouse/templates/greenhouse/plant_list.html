@@ -4,9 +4,9 @@
 <div class="container">
   <div class="row mt-4">
     <div class="col-sm">
-      {% if object_list %}
-      <div class="card">
-        <div class="card-header">
+
+      <div class="gh-card">
+        <div class="gh-card-header">
           <div class="row">
             <div class="col-md-7">
               <h3 class="icon-title">
@@ -34,11 +34,11 @@
                 Listado de plantas
               </h3>
             </div>
-            <div class="col-md-5 text-right">
+            <div class="gh-card-action text-right">
               <div class="btn-group">
-                <a class="btn btn-warning btn-sm" href="{% url 'greenhouse.groups' %}">Grupos</a>
-                <a class="btn btn-warning btn-sm" href="{% url 'greenhouse.groups.create' %}">Crear Grupo</a>
-                <a href="{% url 'greenhouse.plants.create' %}" class="btn btn-primary btn-sm">Crear Planta</a>
+                <a class="btn btn-list btn-sm" href="{% url 'greenhouse.groups' %}">Grupos</a>
+                <a class="btn btn-make btn-sm" href="{% url 'greenhouse.groups.create' %}">Nuevo Grupo</a>
+                <a class="btn btn-make btn-sm" href="{% url 'greenhouse.plants.create' %}">Nuevo Planta</a>
               </div>
             </div>
           </div>
@@ -74,27 +74,33 @@
           </div>
           {% endif %}
         </div>
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <th scope="col">Código</th>
-              <th scope="col">Fecha Nacimiento</th>
-              <th scope="col">Acciones</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for object in object_list %}
-            <tr>
-              <td>{{object.code}}<br /><small>{{object.plant_type}}</small></td>
-              <td>{{object.birthdate}}</td>
-              <td>
-                <a class="btn btn-outline-primary btn-sm" href="{% url 'greenhouse.plants.detail' object.pk %}">Ver</a>
-                <a class="btn btn-outline-warning btn-sm"
-                  href="{% url 'greenhouse.plants.update' object.pk %}">Editar</a></td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
+        <div class="gh-card-body">
+          {% if object_list %}
+          <table class="gh-table gh-table-sm gh-table-responsive gh-table-responsive-last-actions">
+            <thead>
+              <tr>
+                <th scope="col">Código</th>
+                <th scope="col">Fecha Nacimiento</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for object in object_list %}
+              <tr>
+                <td>{{object.code}}<br /><small>{{object.plant_type}}</small></td>
+                <td>{{object.birthdate}}</td>
+                <td>
+                  <a class="btn btn-action-view btn-sm"
+                    href="{% url 'greenhouse.plants.detail' object.pk %}">Ver</a>
+                  <a class="btn btn-action-update btn-sm"
+                    href="{% url 'greenhouse.plants.update' object.pk %}">Editar</a></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% else %}
+          {% endif %}
+        </div>
         {% if is_paginated %}
         <div class="card-footer">
           <div class="row">
@@ -130,8 +136,7 @@
         {% endif %}
 
       </div>
-      {% else %}
-      {% endif %}
+
     </div>
   </div>
 </div>

@@ -25,7 +25,20 @@ SECRET_KEY = 'inw3$4pa$*tm!074dx3%*6d!%6ec*$jon0@4m%-h#2r(22by8@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.16', '127.0.0.1', 'localhost']
+'''
+DNS lookup – Look up DNS record
+IP address or host name: 	
+190.101.52.126
+Using domain server:
+Name:
+ 127.0.0.1
+Address:
+ 127.0.0.1#53
+Aliases:
+126.52.101.190.in-addr.arpa domain name pointer pc-126-52-101-190.cm.vtr.net.
+'''
+
+ALLOWED_HOSTS = ['192.168.0.16', '127.0.0.1', 'localhost', '190.160.0.15', '192.168.0.16', '190.101.52.126', 'pc-126-52-101-190.cm.vtr.net', 'claudioesteban']
 
 # http://192.168.0.16:8080/
 # Application definition
@@ -38,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'safedelete',
     'qr_code',
 
     'apps.authorization',
@@ -50,7 +64,7 @@ INSTALLED_APPS = [
 ]
 
 AUTH_USER_MODEL = 'authorization.CustomUser'
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = '/greenhouse/plants/'
 LOGOUT_REDIRECT_URL = 'home'
 
 MIDDLEWARE = [

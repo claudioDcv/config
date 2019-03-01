@@ -4,9 +4,9 @@
 <div class="container">
   <div class="row mt-4">
     <div class="col-sm">
-      {% if object_list %}
-      <div class="card">
-        <div class="card-header">
+
+      <div class="gh-card">
+        <div class="gh-card-header">
           <div class="row">
             <div class="col-md-7">
               <h3 class="icon-title">
@@ -34,11 +34,12 @@
                 Listado de grupos
               </h3>
             </div>
-            <div class="col-md-5 text-right">
-                <div class="btn-group">
-                  <a class="btn btn-warning btn-sm" href="{% url 'greenhouse.groups.create' %}">Crear Grupo</a>
-                </div>
+            <div class="gh-card-action">
+              <div class="btn-group">
+                  <a class="btn btn-list btn-sm" href="{% url 'greenhouse.plants' %}">Plantas</a>
+                <a class="btn btn-make btn-sm" href="{% url 'greenhouse.groups.create' %}">Nuevo Grupo</a>
               </div>
+            </div>
           </div>
           {% if is_paginated %}
           <div class="row">
@@ -72,7 +73,8 @@
           </div>
           {% endif %}
         </div>
-        <table class="table table-sm">
+        {% if object_list %}
+        <table class="gh-table gh-table-sm gh-table-responsive gh-table-responsive-last-actions">
           <thead>
             <tr>
               <th scope="col">Nombre</th>
@@ -84,14 +86,23 @@
             <tr>
               <td>{{object.label}}</td>
               <td>
-                  <a class="btn btn-outline-warning btn-sm"
-                  href="{% url 'greenhouse.groups.detail' object.pk %}">Ver</a>
-                <a class="btn btn-outline-warning btn-sm"
-                  href="{% url 'greenhouse.groups.update' object.pk %}">Editar</a></td>
+                <a class="btn btn-action-view btn-sm" href="{% url 'greenhouse.groups.detail' object.pk %}">Ver</a>
+                <a class="btn btn-action-update btn-sm"
+                  href="{% url 'greenhouse.groups.update' object.pk %}">Editar</a>
+
+                {% if object.is_deleted == None %}
+                <a class="btn btn-action-delete btn-sm btn-sm"
+                  href="{% url 'greenhouse.groups' %}?id={{ object.pk }}&action=delete&page=1">Eliminar</a>
+                {% else %}
+                <a class="btn btn-action-restore btn-sm btn-sm"
+                  href="{% url 'greenhouse.groups' %}?id={{ object.pk }}&action=restore&page=1">Restaurar</a></td>
+              {% endif %}
             </tr>
             {% endfor %}
           </tbody>
         </table>
+        {% else %}
+        {% endif %}
         {% if is_paginated %}
         <div class="card-footer">
           <div class="row">
@@ -127,8 +138,7 @@
         {% endif %}
 
       </div>
-      {% else %}
-      {% endif %}
+
     </div>
   </div>
 </div>

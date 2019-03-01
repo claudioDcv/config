@@ -1,0 +1,428 @@
+:root {
+/* RGB */
+--bg1 :#424242;
+--bg2 :rgba(72, 191, 132, 1);
+--bg3 :rgba(67, 151, 117, 1);
+--bg4 :rgba(115, 170, 100, 1);
+--bg5 :#283593;
+--bg-card: #ffffff;
+  }
+
+  
+body {
+    background: #e8e8e8;
+}
+
+.smart-select {}
+
+.smart-select__input {
+    width: 100%;
+}
+
+.smart-select .drop {
+    z-index: 1;
+    padding: 0;
+    max-height: 300px;
+    overflow: auto;
+    position: absolute;
+    top: 37px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px darkgrey;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.smart-select .drop li {
+    cursor: pointer;
+    padding: 6px;
+}
+
+.smart-select .drop li:hover {
+    background: #f7f7f7;
+    color: #007bff;
+}
+
+.smart-select input.hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    color: #66339900;
+    background: #ffffff00;
+    border: none;
+}
+
+/* Coolors Exported Palette - coolors.co/7ecdb0-48bf84-439775-73aa64-2a4747 */
+
+.datetimepicker-green {
+    border: 1px solid #d0d0d0;
+    box-shadow: 0px 2px 15px 4px #0404041c;
+}
+.datetimepicker-green .days .titles {
+    border-bottom: none;
+}
+.datetimepicker-green .months .selected,
+.datetimepicker-green .days .selected {
+    background: #DCEDC8;
+    color: #33691E;
+}
+
+.datetimepicker-green .time .ok {
+    background: #DCEDC8;
+    color: #33691E;
+    border-color: #33691E;
+}
+
+.datetimepicker-green .time .ok:hover {
+    background: rgba(220, 237, 200, .5);
+    color: #33691E;
+}
+
+.datetimepicker .time .hour,
+.datetimepicker .time .minutes {
+    border: 1px solid #ced4da;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.icon-title {
+    margin: 4px 0 0 0;
+    line-height: 28px;
+    font-size: 22px;
+    padding-left: 40px;
+    position: relative;
+    display: block;
+    height: 30px;
+}
+
+.icon-title .icon-header {
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
+.icon-title .icon-header svg {
+    height: 30px;
+}
+
+.gh-card {
+    background: #ffffff;
+    border: #d0d0d0 1px solid;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px #04040414;
+}
+
+.gh-card-header {
+    color:var(--bg5);
+    padding: 25px;
+    position: relative;
+}
+
+.gh-card-action {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.gh-card-header h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.gh-card-body-pad {
+    padding: 25px;
+}
+
+.gh-table {
+    width: 100%;
+}
+
+.gh-table thead {
+    
+}
+
+.gh-table thead tr {
+    border-bottom: solid 1px #d0d0d0;
+}
+
+.gh-table tbody tr {
+    border-bottom: solid 1px #d0d0d0;
+}
+
+.gh-table tbody tr:hover {
+    background: #f9f9f9;
+}
+
+.gh-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.gh-table th {
+    padding: 15px;
+}
+
+.gh-table th:first-child {
+    padding-left: 25px;
+}
+
+.gh-table th:last-child {
+    padding-right: 25px;
+    text-align: right;
+}
+
+.gh-table td {
+    padding: 15px;
+}
+
+.gh-table td:first-child {
+    padding-left: 25px;
+}
+
+.gh-table td:last-child {
+    padding-right: 25px;
+    text-align: right;
+}
+
+.gh-card-header--actions {
+    float: right;
+}
+
+.gh-not-result {
+    background: #FFECB3;
+    color: #FF6F00;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+/* btn */
+.btn {
+    /* font-weight: 600; */
+}
+
+.btn-list {
+    background: #FFECB3;
+    color: #FF6F00;
+    border: solid 1px #FFECB3;
+    text-transform: uppercase;
+}
+.btn-list:hover {
+    background: rgba(255, 236, 179, .5);
+    color: #FF6F00;
+    border: solid 1px #FFECB3;
+}
+.btn-make {
+    background: #B3E5FC;
+    color: #01579B;
+    border: solid 1px #B3E5FC;
+    text-transform: uppercase;
+}
+.btn-make:hover {
+    background: rgba(179, 229, 252, 0.5);
+    color: #01579B;
+    border: solid 1px #B3E5FC;
+}
+
+.btn-action-view {
+    color: #004D40;
+    text-transform: uppercase;
+    background: #B2DFDB;
+    text-transform: uppercase;
+    border: solid 1px #B2DFDB;
+}
+
+.btn-action-view:hover {
+    background: rgba(178, 223, 219, .5);
+}
+
+.btn-action-save {
+    color: #1A237E;
+    text-transform: uppercase;
+    background: #C5CAE9;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    font-size: 16px;
+}
+
+.btn-action-update {
+    color: #4A148C;
+    text-transform: uppercase;
+    background: #E1BEE7;
+    border: solid 1px #E1BEE7;
+}
+
+.btn-action-update:hover {
+    background: rgba(225, 190, 231, .5);
+}
+
+.btn-action-delete {
+    background: #FFCDD2;
+    color: #B71C1C;
+    text-transform: uppercase;
+    border: solid 1px #FFCDD2;
+}
+
+.btn-action-delete:hover {
+    background: rgba(255, 205, 210, .5);
+    color: #B71C1C;
+}
+
+.btn-action-restore {
+    background: #C5CAE9;
+    color: #1A237E;
+    text-transform: uppercase;
+    border: solid 1px #C5CAE9;
+}
+
+.btn-action-restore:hover {
+    background: rgba(197, 202, 233, .5);
+}
+
+/*
+*[class*="btn-action"]:hover {
+    box-shadow: 0px 2px 4px 2px #00000017;
+    border: solid 1px #00000017;
+    transition: all ease .2s;
+}
+*/
+
+/* MENU */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,0);
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+/* TABLE RESPONSIVE */
+.gh-table-responsive .gh-table-responsive-title {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .gh-table-responsive {
+        display: block;
+    }
+
+    .gh-table-responsive thead {
+        display: none;
+    }
+
+    .gh-table-responsive .gh-table-responsive-title {
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .gh-table-responsive tbody{
+        display: block;
+    }
+
+    .gh-table-responsive tbody tr{
+        display: block;
+    }
+
+    .gh-table-responsive tbody tr td {
+        display: block;
+        padding: 15px 25px 0 25px;
+    }
+
+    .gh-table-responsive tbody tr td:last-child {
+        padding-bottom: 15px;
+    }
+
+    .gh-table-responsive.gh-table-responsive-last-actions tr td:last-child{
+
+    }
+
+    .gh-table-responsive.gh-table-responsive-last-actions tr td:last-child .gh-table-responsive-title {
+        display: none;
+    }
+
+    .gh-table-responsive tbody tr:hover {
+        box-shadow: 0px 1px 17px 4px #0000003b;
+        background-color: #ffffff;
+    }
+    /* card action */
+    .gh-card-action {
+        z-index: 1;
+        display: none;
+        right: 16px;
+        top: 73px;
+        border: solid 1px #d0d0d0;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 0px 2px 10px 0px #00000029;
+    }
+
+    .gh-card-action > div{
+        display: block;
+        width: 100%;
+    }
+
+    .gh-card-action > div  > a {
+        display: block;
+        width: 100%;
+        background-color: #ffffff00;
+        border-color: #ffffff00;
+        border-bottom: solid 1px #d0d0d0;
+        color: #283593;
+        text-align: left;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+    
+    .gh-card-action > div  > a:hover,
+    .gh-card-action > div  > a:focus {
+        background-color: #ffffff00;
+        border-color: #ffffff00;
+    }
+
+    .gh-card-action > div  > a:last-child {
+        border-bottom: none;
+    }
+
+    .gh-card-action.hidden-mobile {
+        display: none !important;
+    }
+
+    .gh-card-action.show-mobile {
+        display: block !important;
+    }
+
+
+    .gh-button-open-responsive-actions {
+        position: absolute;
+        height: 43px;
+        width: 43px;
+        right: 15px;
+        top: 15px;
+        background: #e8e8e8;
+        text-align: center;
+        padding: 10px 19px;
+        border-radius: 50%;
+    }
+
+    .gh-button-open-responsive-actions div {
+        background: #283593;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        margin-bottom: 4px;
+    }
+
+    .gh-button-open-responsive-actions div:nth-child(1) {
+        
+    }
+    .gh-button-open-responsive-actions div:nth-child(2) {
+        
+    }
+    .gh-button-open-responsive-actions div:nth-child(3) {
+        margin-bottom: 0;
+    }
+}

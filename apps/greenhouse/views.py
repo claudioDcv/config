@@ -1,7 +1,11 @@
 from django.urls import reverse
 from django.utils import timezone
 from datetime import datetime
+from django.db import IntegrityError
 import json
+
+from django.contrib import messages
+from django.db import IntegrityError
 from django.forms.models import model_to_dict
 from django.http import JsonResponse
 from django.http import HttpResponse
@@ -35,8 +39,10 @@ class PlantCreateView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.owner = self.request.user
+        self.object.is_deleted = None
 
         self.object.plant_type = PlantType.objects.get(pk=self.request.POST.get('plant_type'))
+        self.object.group = Group.objects.get(pk=self.request.POST.get('group'))
         self.object.save()
         return FormMixin.form_valid(self, form)
 
@@ -65,6 +71,7 @@ class PlantUpdateView(LoginRequiredMixin, UpdateView):
         self.object.owner = self.request.user
 
         self.object.plant_type = PlantType.objects.get(pk=self.request.POST.get('plant_type'))
+        self.object.group = Group.objects.get(pk=self.request.POST.get('group'))
         self.object.save()
         return FormMixin.form_valid(self, form)
 
@@ -113,6 +120,7 @@ class ControlCreateView(LoginRequiredMixin, CreateView):
         if len(plant) == 1:
             self.object = form.save(commit=False)
             self.object.plant = plant.get()
+            self.object.is_deleted = None
 
             if self.object.capture_date is None:
                 self.object.capture_date = timezone.now()
@@ -195,6 +203,40 @@ class GroupListView(LoginRequiredMixin, ListView):
 
     def get_queryset(self):
         return self.model.objects.filter(owner=self.request.user)
+    
+    def get(self, request, *args, **kwargs):
+        # Aplicar acciones
+        action = request.GET.get('action', '')
+        if action == 'delete':
+            pk = request.GET.get('id', '')
+            object_to_change = Group.objects.get(pk=pk)
+            object_to_change.delete()
+        
+        if action == 'restore':
+            pk = request.GET.get('id', '')
+            object_to_change = Group.objects.get(pk=pk)
+            object_to_change.restore()
+
+        # JSON JSON
+        format_response = self.request.GET.get('format', '')
+        q_label = self.request.GET.get('q_label', '')
+        
+        # and sub_type is not None
+        if format_response == 'json' and q_label is not None:
+            qs = None
+            if q_label:
+                qs = self.get_queryset().filter(
+                is_deleted=None, label__icontains=q_label).order_by(
+                'label')[:100]
+            else:
+                qs = self.get_queryset().filter().order_by(
+                'label')[:100]
+
+            qs_json = json.dumps([dict(item) for item in qs.values('label', 'pk')])
+
+            return HttpResponse(qs_json, content_type='application/json')
+        # JSON JSON
+        return super(GroupListView, self).get(request, *args, **kwargs)
 
 
 class GroupCreateView(LoginRequiredMixin, CreateView):
@@ -202,13 +244,23 @@ class GroupCreateView(LoginRequiredMixin, CreateView):
     success_url = '/greenhouse/groups/'
     form_class = GroupForm
 
+    has_error = False
+
     def get_success_url(self):
+        if self.has_error:
+            return '/greenhouse/groups/create'
         return '/greenhouse/groups/update/' + str(self.object.pk) + '/'
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.owner = self.request.user
-        self.object.save()
+        self.object.is_deleted = None
+        try:
+            self.object.save()
+        except IntegrityError:
+            self.has_error = True
+            messages.add_message(self.request, messages.INFO, 'Ya existe un elemento llamado ' + self.object.label)
+        
         return FormMixin.form_valid(self, form)
 
 

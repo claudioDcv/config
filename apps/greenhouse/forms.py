@@ -26,11 +26,12 @@ class PlantForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super(PlantForm, self).__init__(*args, **kwargs)
         self.fields['code'].widget.attrs = { 'class': 'form-control' }
-        self.fields['group'].widget.attrs = { 'class': 'form-control' }
+        # self.fields['group'].widget.attrs = { 'class': 'form-control' }
+        # self.fields['group'].queryset = Group.objects.none()
 
     class Meta:
         model = Plant
-        exclude = ('owner', 'slug', 'plant_type')
+        exclude = ('owner', 'group', 'slug', 'plant_type', 'is_deleted')
 
 
 class ControlForm(forms.ModelForm):
@@ -86,7 +87,7 @@ class ControlForm(forms.ModelForm):
 
     class Meta:
         model = Control
-        exclude = ('plant', )
+        exclude = ('plant', 'is_deleted')
     
     def __init__(self, *args, **kwargs):
         # first call parent's constructor
@@ -104,9 +105,10 @@ class GroupForm(forms.ModelForm):
         max_length=100,
         widget=forms.DateTimeInput(attrs={
             'class': 'form-control',
+            'placeholder': 'Ingrese nombre de su grupo',
         })
     )
 
     class Meta:
         model = Group
-        exclude = ('owner',)
+        exclude = ('owner', 'is_deleted')

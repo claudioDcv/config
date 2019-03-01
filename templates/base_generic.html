@@ -11,31 +11,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
         integrity="sha256-yMjaV542P+q1RnH6XByCPDfUFhmOafWbeLPmqKh11zo=" crossorigin="anonymous" />
-    <style>
-        body {
-            background: #e8e8e8;
-        }
 
-        .icon-title {
-            margin: 4px 0 0 0;
-            line-height: 28px;
-            font-size: 22px;
-            padding-left: 40px;
-            position: relative;
-            display: block;
-            height: 30px;
-        }
-
-        .icon-title .icon-header {
-            position: absolute;
-            left: 0;
-            top: -4px;
-        }
-
-        .icon-title .icon-header svg {
-            height: 30px;
-        }
-    </style>
     <style>
         {% include "datepicker.css" %}
     </style>
@@ -43,6 +19,10 @@
     <script>
         {% include "datepicker.js" %}
     </script>
+    <script>{% include "main.js" %}</script>
+    <style>
+        {% include "style.css" %}
+    </style>
 </head>
 
 <body>
@@ -62,10 +42,12 @@
                         <a class="nav-link" href="{% url 'greenhouse.groups' %}">Grupos</a>
                     </li>
             </ul>
+            <!--
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+            -->
         </div>
     </nav>
     <div class="container-fluid">
@@ -86,9 +68,9 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"
         integrity="sha256-oSgtFCCmHWRPQ/JmR4OoZ3Xke1Pw4v50uh6pLcu+fIc=" crossorigin="anonymous"></script>
-
-
+    
     <script>
+    
 
 function clearDates() {
     var inputDates = document.querySelectorAll('.datepicker')

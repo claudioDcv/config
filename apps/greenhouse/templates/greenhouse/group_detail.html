@@ -5,13 +5,15 @@
 <div class="container">
     <div class="row mt-4">
         <div class="col-sm">
-            <div class="card">
-                <div class="card-header">
-                    <strong class="d-inline-block">Detalle de Grupo</strong>
-                    <a class="btn btn-outline-warning btn-sm"
-                        href="{% url 'greenhouse.groups.update' object.pk %}">Editar</a>
+            <div class="gh-card">
+                <div class="gh-card-header">
+                    <h3>Detalle de Grupo</h3>
+                    <div class="gh-card-header--actions">
+                        <a class="btn btn-action-update btn-sm"
+                            href="{% url 'greenhouse.groups.update' object.pk %}">Editar</a>
+                    </div>
                 </div>
-                <div class="card-body">
+                <div class="gh-card-body gh-card-body-pad">
                     <div class="row">
                         <div class="col-sm-7">
                             <p>
@@ -29,22 +31,22 @@
 
 
                 </div>
-                <div class="card-footer">
+                <div class="gh-card-footer">
 
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="card my-4">
-        <div class="card-header">
-            <div class="card-title">Plantas</div>
+    <div class="gh-card my-4">
+        <div class="gh-card-header">
+            <h3 class="card-title">Plantas</h3>
         </div>
         <div>
             <div class="row">
                 <div class="col-sm">
                     {% if plant_list %}
-                    <table class="table table-sm">
+                    <table class="gh-table gh-table-sm gh-table-responsive gh-table-responsive-last-actions">
                         <thead>
                             <tr>
                                 <th scope="col">Código</th>
@@ -59,9 +61,9 @@
                                 <td>{{plant.plant_type}}</td>
 
                                 <td>
-                                    <a class="btn btn-outline-success btn-sm"
+                                    <a class="btn btn-action-view btn-sm"
                                         href="{% url 'greenhouse.plants.detail' plant.pk %}">Ver</a>
-                                    <a class="btn btn-outline-warning btn-sm"
+                                    <a class="btn btn-action-update btn-sm"
                                         href="{% url 'greenhouse.plants.update' plant.pk %}">Editar</a>
                                 </td>
                             </tr>
@@ -69,6 +71,9 @@
                         </tbody>
                     </table>
                     {% else %}
+                    <div class="gh-card-body gh-card-body-pad">
+                        <div class="gh-not-result">Aun no existen plantas asignadas</div>
+                    </div>
                     {% endif %}
                 </div>
             </div>

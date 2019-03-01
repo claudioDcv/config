@@ -1,13 +1,25 @@
 from django.db import models
+import datetime
 
 from .utils import get_unique_slug
+
 
 class AutoDateModel(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+    is_deleted = models.DateTimeField(null=True, default=False)
+
+    def delete(self):
+        self.is_deleted = datetime.datetime.now()
+        self.save()
+
+    def restore(self):
+        self.is_deleted = None
+        self.save()
 
     class Meta:
         abstract = True
+
 
 class PlantType(models.Model):
     label = models.CharField(max_length=255)

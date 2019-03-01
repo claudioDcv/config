@@ -4,180 +4,57 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="card mt-4">
-                <div class="card-header">
+            <div class="gh-card mt-4">
+                <div class="gh-card-header">
                     <h3>Nueva planta </h3>
                 </div>
-                <div class="card-body">
+                <div class="gh-card-body gh-card-body-pad">
+
+                    <div class="gh-errors-form">
+                        {% if messages %}
+                        <ul class="messages">
+                            {% for message in messages %}
+                            <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                                {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+
                     <form method="post" id="form">{% csrf_token %}
                         <p id="type" data-id="{{object.plant_type.id}}" data-label="{{object.plant_type.label}}">
                             <label for="">Tipo</label>
                         </p>
-                        {{object.birthdate}}
+                        <p id="group" data-id="{{object.group.id}}" data-label="{{object.group.label}}">
+                            <label for="">Grupo</label>
+                        </p>
                         {{ form.as_p }}
-                        <input type="submit" class="btn btn-primary" value="Guardar">
+                        <input type="submit" class="btn btn-action-save btn-sm" value="Guardar">
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<style>
-    .select-drop-smart {}
-
-    .select-drop-smart__input {
-        width: 100%;
-    }
-
-    .drop {
-        padding: 0;
-        max-height: 300px;
-        overflow: auto;
-        position: absolute;
-        top: 37px;
-        background-color: rgb(255, 255, 255);
-        border: solid 1px darkgrey;
-        width: 100%;
-        border-radius: 4px;
-    }
-
-    .drop li {
-        cursor: pointer;
-        padding: 6px;
-    }
-
-    .drop li:hover {
-        background: #f7f7f7;
-        color: #007bff;
-    }
-
-    .select-drop-smart input#id_plant_type {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        color: #66339900;
-        background: #ffffff00;
-        border: none;
-    }
-</style>
 <script>
     (function () {
 
-        var type = document.querySelector('#type')
+        makeSmartSelect({
+            id: '#type',
+            key: "plant_type",
+            url: '/greenhouse/plant-types/?format=json&q_label=',
+            labelTemplate: function (element) {
+                return element.sub_type + ' - ' + element.label;
+            },
+        })
 
-        var prevObj = {
-            id: type.dataset.id,
-            label: type.dataset.label,
-        }
-
-        var inCont = document.createElement('div')
-        inCont.className = 'select-drop-smart'
-
-        inCont.style.position = 'relative'
-        var input = document.createElement('input')
-        input.className = 'select-drop-smart__input form-control'
-
-        var inputHidden = document.createElement('input')
-        var options = document.createElement('ul')
-        options.className = 'drop'
-        options.style.display = 'none'
-
-        inCont.appendChild(input)
-        inCont.appendChild(inputHidden)
-        inCont.appendChild(options)
-
-        // inputHidden.style.display = 'none'
-        inputHidden.id = "id_plant_type"
-        inputHidden.name = "plant_type"
-        inputHidden.value = ""
-        inputHidden.required = true
-
-        type.appendChild(inCont)
-
-
-        // si viene data previa, se llena
-        if (prevObj.id != null && prevObj.id != '') {
-            inputHidden.value = prevObj.id
-            input.value = prevObj.label
-            input.dataset.value = prevObj.label
-        }
-
-        inputHidden.addEventListener('focus', () => {
-            inputHidden.blur()
-            options.style.display = 'none'
-            inCont.focus()
-        }, false)
-
-        var asignElementToInput = (event) => {
-            const li = event.target;
-            const id = li.dataset.id;
-            const label = li.dataset.label;
-            inputHidden.value = id
-            options.innerHTML = "";
-            input.value = label
-            input.dataset.value = label
-        }
-
-        var searchFetch = function (text) {
-            fetch('/greenhouse/plant-types/?format=json&q_label=' + text)
-                .then(resp => resp.json())
-                .then(data => {
-                    options.innerHTML = "";
-                    options.style.display = 'block'
-
-                    data.forEach(element => {
-                        const val = document.createElement('li')
-                        val.dataset.id = element.pk
-                        val.dataset.label = element.label
-                        val.dataset.sub_type = element.sub_type
-                        val.innerText = element.sub_type + ' - ' + element.label
-                        val.addEventListener('click', asignElementToInput, false)
-                        options.appendChild(val)
-                    });
-                })
-        }
-
-        input.addEventListener('input', function (self) {
-            var val = self.target.value + '';
-            if (val.length > 1) {
-                searchFetch(self.target.value)
-            } else {
-                inputHidden.value = ''
-                input.dataset.value = ''
-            }
-            if (input.dataset.value != val) {
-                inputHidden.value = ''
-            }
-        }, false)
-
-        input.addEventListener('click', function (self) {
-            var val = self.target.value + '';
-            if (val.length > 1) {
-                searchFetch(self.target.value)
-            }
-        }, false)
-
-
-        document.addEventListener("click", (evt) => {
-            const flyoutElement = inCont
-            let targetElement = evt.target; // clicked element
-
-            do {
-                if (targetElement == flyoutElement) {
-                    // This is a click inside. Do nothing, just return.
-                    options.style.display = 'block'
-                    return;
-                }
-                // Go up the DOM
-                targetElement = targetElement.parentNode;
-            } while (targetElement);
-
-            // This is a click outside.
-            options.style.display = 'none'
-        });
+        makeSmartSelect({
+            id: '#group',
+            key: "group",
+            url: '/greenhouse/groups/?format=json&q_label=',
+            labelTemplate: function (element) {
+                return element.label;
+            },
+        })
 
     })()
 </script>
