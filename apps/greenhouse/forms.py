@@ -87,7 +87,7 @@ class ControlForm(forms.ModelForm):
 
     class Meta:
         model = Control
-        exclude = ('plant', 'is_deleted')
+        exclude = ('plant', 'is_deleted', 'solutions')
     
     def __init__(self, *args, **kwargs):
         # first call parent's constructor

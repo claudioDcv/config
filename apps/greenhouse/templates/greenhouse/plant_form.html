@@ -24,7 +24,11 @@
                         <p id="type" data-id="{{object.plant_type.id}}" data-label="{{object.plant_type.label}}">
                             <label for="">Tipo</label>
                         </p>
-                        <p id="group" data-id="{{object.group.id}}" data-label="{{object.group.label}}">
+                        <p
+                            id="group"
+                            data-id="{{object.group.id}}{{prev_group.id}}"
+                            data-label="{{object.group.label}}{{prev_group.label}}"
+                        >
                             <label for="">Grupo</label>
                         </p>
                         {{ form.as_p }}

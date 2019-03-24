@@ -1,32 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
-        integrity="sha256-yMjaV542P+q1RnH6XByCPDfUFhmOafWbeLPmqKh11zo=" crossorigin="anonymous" />
-
-    <style>
-        {% include "datepicker.css" %}
-    </style>
-
-    <script>
-        {% include "datepicker.js" %}
-    </script>
-    <script>{% include "main.js" %}</script>
-    <style>
-        {% include "style.css" %}
-    </style>
+    <title>ANANDA</title>
+    <link rel="stylesheet" href="/static/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/public/css/datepicker.css">
+    <script src="/static/public/js/datepicker.js"></script>
+    <script src="/static/public/js/main.js"></script>
+    <link rel="stylesheet" href="/static/public/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">Ananda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +28,25 @@
                     <a class="nav-link" href="{% url 'greenhouse.plants' %}">Plantas</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="{% url 'greenhouse.groups' %}">Grupos</a>
-                    </li>
+                    <a class="nav-link" href="{% url 'greenhouse.groups' %}">Grupos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'lab.solutions' %}">Soluciones</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="gh-avatar" data-text="{{ request.user.username }}"></span> {{ request.user.username }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Perfil</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{% url 'logout' %}">Cerrar Sesión</a>
+                    </div>
+                </li>
+                
             </ul>
             <!--
             <form class="form-inline my-2 my-lg-0">
@@ -52,42 +58,29 @@
     </nav>
     <div class="container-fluid">
         {% block content %}
-
         {% endblock %}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"
-        integrity="sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"
-        integrity="sha256-oSgtFCCmHWRPQ/JmR4OoZ3Xke1Pw4v50uh6pLcu+fIc=" crossorigin="anonymous"></script>
-    
+    <script src="/static/public/3tr/moment-with-locales.min.js"></script>
+    <script src="/static/public/3tr/jquery-3.3.1.slim.min.js"></script>
+    <script src="/static/public/3tr/popper.min.js"></script>
+    <script src="/static/public/3tr/bootstrap.min.js"></script>
+    <script src="/static/public/3tr/Chart.min.js"></script>
     <script>
-    
-
-function clearDates() {
-    var inputDates = document.querySelectorAll('.datepicker')
-
-    for (let index = 0; index < inputDates.length; index++) {
-        const element = inputDates[index];
-        element.value = element.value.replace(' 00:00:00', '')
-    }
-    dates()
-}
-clearDates()
-
+        function clearDates() {
+            var inputDates = document.querySelectorAll('.datepicker')
+            for (let index = 0; index < inputDates.length; index++) {
+                const element = inputDates[index];
+                element.value = element.value.replace(' 00:00:00', '')
+            }
+            dates()
+        }
+        clearDates()
     </script>
-<!-- Include Choices CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@4/public/assets/styles/choices.min.css">
-<!-- Include Choices JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/choices.js@4/public/assets/scripts/choices.min.js"></script>
+    <!-- Include Choices CSS
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@4/public/assets/styles/choices.min.css">
+    Include Choices JavaScript
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@4/public/assets/scripts/choices.min.js"></script>
+    -->
     {% block scripts %}
     {% endblock %}
 </body>

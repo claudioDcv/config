@@ -11,6 +11,7 @@
                     <div class="gh-card-header--actions">
                         <a class="btn btn-action-update btn-sm"
                             href="{% url 'greenhouse.groups.update' object.pk %}">Editar</a>
+                        <a class="btn btn-make btn-sm" href="{% url 'greenhouse.plants.create' %}?group={{object.pk}}">Nuevo Planta</a>
                     </div>
                 </div>
                 <div class="gh-card-body gh-card-body-pad">

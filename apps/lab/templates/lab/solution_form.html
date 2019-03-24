@@ -1,0 +1,30 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="gh-card my-4">
+                <div class="gh-card-header">
+                    <h3>Solución</h3>
+                </div>
+                <div class="gh-card-body gh-card-body-pad">
+                    <form method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <div class="form-group">
+                            <label for="elements_solution">Elementos</label>
+                            <select name="elements_solution" id="id_elements_solution" multiple="" class="form-control">
+                                {% for es in elementsolution_list %}
+                                <option value="{{es.pk}}" {% if es.pk in o_es %}selected{%endif%}>{{es.label}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <input type="submit" class="btn btn-action-save btn-sm" value="Guardar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

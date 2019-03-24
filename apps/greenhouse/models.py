@@ -2,7 +2,7 @@ from django.db import models
 import datetime
 
 from .utils import get_unique_slug
-
+from apps.lab.models import Solution
 
 class AutoDateModel(models.Model):
     created = models.DateTimeField(auto_now_add=True)
@@ -73,3 +73,5 @@ class Control(AutoDateModel):
     weight = models.DecimalField(max_digits=5, decimal_places=3, blank=True, null=True)
     
     description = models.TextField(blank=True, null=True)
+
+    solutions = models.ManyToManyField(Solution)

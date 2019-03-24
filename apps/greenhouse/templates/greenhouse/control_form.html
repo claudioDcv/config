@@ -12,6 +12,19 @@
                     <form method="post">
                         {% csrf_token %}
                         {{ form.as_p }}
+
+                        <div class="form-row field-solutions">
+                            <div>
+                                <label class="required" for="id_solutions">Solutions:</label>
+                                <div class="related-widget-wrapper">
+                                    <select name="solutions" required="" id="id_solutions" multiple="">
+                                        <option value="1" selected="">Solución #1 Uno</option>
+                                    </select>
+                                </div>
+                                <div class="help">Mantenga presionado "Control" o "Command" en un Mac, para seleccionar
+                                    más de una opción.</div>
+                            </div>
+                        </div>
                         <input type="submit" class="btn btn-action-save btn-sm" value="Guardar">
                     </form>
                 </div>

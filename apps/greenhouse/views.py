@@ -18,6 +18,7 @@ from django.core.paginator import Paginator
 
 from .models import Plant, Control, PlantType, Group
 from .forms import PlantForm, ControlForm, GroupForm
+from apps.lab.models import Solution
 
 class PlantListView(LoginRequiredMixin, ListView):
     model = Plant
@@ -35,6 +36,13 @@ class PlantCreateView(LoginRequiredMixin, CreateView):
 
     def get_success_url(self):
         return '/greenhouse/plants/detail/' + str(self.object.pk) + '/'
+
+    def get_context_data(self, **kwargs):
+        ctx = super(CreateView, self).get_context_data(**kwargs)
+
+        if self.request.GET.get('group'):
+            ctx['prev_group'] = Group.objects.get(pk=self.request.GET.get('group'))
+        return ctx
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
@@ -110,7 +118,7 @@ class ControlCreateView(LoginRequiredMixin, CreateView):
     form_class = ControlForm
 
     def get_success_url(self):
-        return '/greenhouse/controls/update/' + str(self.object.plant.pk) + '/'
+        return '/greenhouse/plants/detail/' + str(self.object.plant.pk) + '/'
 
     def form_valid(self, form):
         
@@ -151,15 +159,25 @@ class ControlUpdateView(LoginRequiredMixin, UpdateView):
         return context
     '''
 
-    '''
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.owner = self.request.user
 
-        self.object.plant_type = PlantType.objects.get(pk=self.request.POST.get('plant_type'))
+        solutions_list = self.request.POST.getlist('solutions')
+        sol_list = Solution.objects.filter(
+            owner=self.object.owner,
+            pk__in=solutions_list
+        )
+
+        # limpiamos todas las soluciones
+        self.object.solutions.clear()
+        # recorremos y reasignamos
+        for sol in sol_list:
+            self.object.solutions.add(sol)
+
         self.object.save()
         return FormMixin.form_valid(self, form)
-    '''
+
 
 class PlantTypeView(LoginRequiredMixin, ListView):
     model = PlantType
@@ -249,7 +267,7 @@ class GroupCreateView(LoginRequiredMixin, CreateView):
     def get_success_url(self):
         if self.has_error:
             return '/greenhouse/groups/create'
-        return '/greenhouse/groups/update/' + str(self.object.pk) + '/'
+        return '/greenhouse/groups/detail/' + str(self.object.pk) + '/'
 
     def form_valid(self, form):
         self.object = form.save(commit=False)

@@ -1,0 +1,83 @@
+{% extends "base_generic.html" %}
+{% load qr_code %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-sm">
+            <div class="gh-card">
+                <div class="gh-card-header">
+                    <h3 class="d-inline-block">Detalle de solución</h3>
+                    <div class="gh-card-action text-right">
+                        <div class="btn-group">
+                            <a class="btn btn-list btn-sm" href="{% url 'lab.solutions' %}">Soluciones</a>
+                            <a class="btn btn-action-update btn-sm"
+                                            href="{% url 'lab.solutions.update' object.pk %}">Editar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gh-card-body gh-card-body-pad">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <p>
+                                <label for="id_code">Nombre: {{object.label}}</label>
+                            </p>
+                            <p><label for="id_birthdate">Descripción: <br />{{object.description}}</label>
+                            </p>
+                            <p>
+                                <div><code>{{object_url}}</code></div>
+                            </p>
+                        </div>
+                        <div class="col-sm-5 text-right">
+                            {% qr_from_text object_url size="S" %}
+                        </div>
+                    </div>
+
+                </div>
+                <div class="gh-card-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gh-card my-4">
+            <div class="gh-card-header">
+                <h3 class="gh-card-title">Elementos</h3>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-sm">
+                        {% if element_list %}
+                        <table class="gh-table gh-table-sm gh-table-responsive gh-table-responsive-last-actions">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for element in element_list %}
+                                <tr>
+                                    <td>{{element.label}}</td>
+                                    <td><a class="btn btn-action-update btn-sm"
+                                            href="{% url 'lab.elementssolution.update' element.pk %}">Editar</a></td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                        {% else %}
+                        <div class="gh-card-body gh-card-body-pad">
+                            <div class="gh-not-result">Aun no existen elmentos</div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+{% endblock %}
+{% block scripts %}
+
+{% endblock %}
